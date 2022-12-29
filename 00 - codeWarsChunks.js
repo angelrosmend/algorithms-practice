@@ -159,3 +159,10 @@ const getCount = (str) => (str.match(/[aeiou]/ig)||[]).length;
 
 console.log(vowelCount("abracadabra"))
 console.log(vowelCount("Angel Josue Rosales"))
+
+
+//Return min and max integer in an array of numbers
+
+function minMax(arr){
+  return [Math.min(...arr), Math.max(...arr)];
+}
